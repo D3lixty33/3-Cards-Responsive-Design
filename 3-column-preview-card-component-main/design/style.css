@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 90px;
+    border-radius: 16px;
+    background-color: hsl(0, 0%, 95%)
+}
+
+.first-Box {
+    background-color: hsl(31, 77%, 52%);
+    height: 550px;
+    width: 500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  
+}
+
+.second-Box {
+    background-color: hsl(184, 100%, 22%);
+    height: 550px;
+    width: 500px;
+}
+
+.third-Box {
+    background-color: hsl(179, 100%, 13%);
+    height: 550px;
+    width: 500px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.first-Box h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-top: 55px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.second-Box h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-top: 55px;
+    color: hsla(0, 0%, 100%, 0.75)
+    
+}
+
+.third-Box h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-top: 55px;
+    color: hsla(0, 0%, 100%, 0.75)
+    
+}
+
+.first-Box p {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 70px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.second-Box p {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 70px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.third-Box p {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 70px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.btn-Orange button {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+    border-radius: 50px;
+    height: 50px;
+    color:  hsl(31, 77%, 52%); 
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+}
+.btn-Cyan button {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+    border-radius: 50px;
+    height: 50px;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+}
+.btn-DarkCyan button {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+    border-radius: 50px;
+    height: 50px;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 90px;
+        border-radius: 16px;
+        background-color: hsl(0, 0%, 95%)
+    }
+    .first-Box {
+        background-color: hsl(31, 77%, 52%);
+        height: 550px;
+        width: 500px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px ;
+      
+    }
+    .third-Box {
+        background-color: hsl(179, 100%, 13%);
+        height: 550px;
+        width: 500px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+  }
